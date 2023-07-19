@@ -64,6 +64,8 @@ PulsarStore.Language:Language("en", 1)
     :Set("admin.categories.edit.success", "Category edited successfully!")
     :Set("admin.categories.edit.failed", "Failed to edit category: {{err}}")
     :Set("admin.categories.delete", "Delete Category")
+    :Set("admin.categories.delete.success", "Category deleted successfully!")
+    :Set("admin.categories.delete.failed", "Failed to delete category: {{err}}")
     :Set("admin.categories.delete.confirm", "Are you sure you want to delete this category?")
 
     -- Packages
@@ -122,6 +124,7 @@ PulsarStore.Language:Language("en", 1)
     :Set("admin.discounts.create.failed", "Failed to create discount.")
     :Set("admin.discounts.create.success", "Discount created successfully!")
     :Set("admin.discounts.items", "Discount Items")
+    :Set("admin.discounts.save", "Save")
     :Set("admin.discounts.items.add", "Add Item")
     :Set("admin.discounts.items.add.success", "Item added successfully!")
     :Set("admin.discounts.items.add.failed", "Failed to add item.")
@@ -133,6 +136,8 @@ PulsarStore.Language:Language("en", 1)
     :Set("admin.users.remove", "Remove")
     :Set("admin.users.remove.success", "Successfully removed purchase!")
     :Set("admin.users.add.success", "Successfully added purchase!")
+
+    :Set("admin.home", "Back Home")
 
     -- Other
     :Set("periodic", "You have been rewarded {{creditsCount}} {{plural:credit|creditsCount}} for playing on the server!")
