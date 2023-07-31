@@ -1,6 +1,6 @@
 PulsarStore.Language:Language("de", 1)
     :Plural("argument")("Argument")("Argumente")()
-    :Plural("credit")("Kredit")("Kredite")()
+    :Plural("credit")("Credit")("Credits")()
     :Plural("item")("Gegenstand")("Gegenstände")()
 
     -- Generisch
@@ -17,7 +17,7 @@ PulsarStore.Language:Language("de", 1)
     :Set("buy", "Kaufen")
     :Set("sell", "Verkaufen")
     :Set("credit", "{{plural:credit|creditsCount}}")
-    :Set("credits", "Kredite")
+    :Set("credits", "Credits")
     :Set("money", "Geld")
     :Set("close", "Schließen")
     :Set("return", "Zurück")
@@ -35,7 +35,7 @@ PulsarStore.Language:Language("de", 1)
     -- Hauptmenü
     :Set("mainmenu.home", "Startseite")
     :Set("mainmenu.inventory", "Inventar")
-    :Set("mainmenu.credits.buymore", "Mehr Kredite kaufen")
+    :Set("mainmenu.credits.buymore", "Mehr Credits kaufen")
     :Set("search", "Suche...")
     :Set("search.hidepurchased", "Gekaufte ausblenden")
 
